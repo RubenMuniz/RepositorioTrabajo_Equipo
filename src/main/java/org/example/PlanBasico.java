@@ -10,7 +10,7 @@ public class PlanBasico implements {
             return "plan basico";
             @Override
                     public String getDescripcion (){
-                return
+                return ""
             }
         }
     }
