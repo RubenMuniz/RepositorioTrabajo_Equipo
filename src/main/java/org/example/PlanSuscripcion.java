@@ -1,5 +1,10 @@
 package org.example;
 
-public interface PlanSuscripcion{
+public interface PlanSuscripcion {
+    double calcularCosto (int meses);
+    String getNombrePlan();
+    String getDescripcion ();
+
+
 
 }

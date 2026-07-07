@@ -1,7 +1,17 @@
 package org.example;
 
-public class PlanBasico implements PlanSuscripcion{
-    public double CalculoCosto(int meses){
-        return 5.0 * meses;
+public class PlanBasico implements {
+    @Override
+    public double calcularCosto(int meses){
+        return meses * 5.00;
+
+        @Override
+                public String getNombrePlan (){
+            return "plan basico";
+            @Override
+                    public String getDescripcion (){
+                return
+            }
+        }
     }
 }
