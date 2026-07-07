@@ -1,5 +1,5 @@
 package org.example;
 
-public class PlanSuscripcion {
+public interface PlanSuscripcion {
 
 }
