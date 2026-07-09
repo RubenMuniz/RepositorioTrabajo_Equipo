@@ -4,4 +4,8 @@ public class CuentaEstandar extends CuentaUsuario{
     public CuentaEstandar(String correo, int mesesActivo) {
         super(correo, mesesActivo, new PlanEstandar());
     }
+    @Override
+    public String nom() {
+        return "Cuenta Estandar";
+    }
 }

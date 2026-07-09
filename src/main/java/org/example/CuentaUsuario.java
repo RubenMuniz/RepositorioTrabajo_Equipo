@@ -10,6 +10,10 @@ public abstract class CuentaUsuario{
         this.mesesActivo = mesesActivo;
         this.planSuscripcion = planSuscripcion;
     }
+    public double calculo(){
+        return planSuscripcion.calcular(mesesActivo);
+    }
+    public abstract String nom();
 
     public String getCorreo() {
         return correo;
@@ -33,5 +37,14 @@ public abstract class CuentaUsuario{
 
     public void setPlanSuscripcion(PlanSuscripcion planSuscripcion) {
         this.planSuscripcion = planSuscripcion;
+    }
+
+    @Override
+    public String toString() {
+        return "CuentaUsuario{" +
+                "correo='" + correo + '\'' +
+                ", mesesActivo=" + mesesActivo +
+                ", planSuscripcion=" + planSuscripcion +
+                '}';
     }
 }
