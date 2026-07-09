@@ -19,6 +19,29 @@ public class Main {
                 System.out.println("2.- Mostrar Reporte");
                 System.out.println("3.- Salir");
                 System.out.println("Elije una opcion");
+                opc = sc.nextInt();
+                sc.nextLine();
+                switch (opc){
+                    case 1:
+                        System.out.println("---------------");
+                        System.out.println("----REGISTRAR USUARIO----");
+                        System.out.println("Ingrese el Correo Electronico:");
+
+                        System.out.println("Ingresa los meses Contraados");
+
+                        System.out.println("Selecciona el tipo de Cuenta:");
+                        System.out.println("1.-Cuenta Basica");
+                        System.out.println("2.-Cuenta Estandar");
+                        System.out.println("3.-Cuenta Premiun");
+                        System.out.println("Elije una opcion");
+
+                        CuentaUsuario Cuenta;
+                        switch (opcionCuenta){
+                            case 1:
+
+
+                        }
+                }
 
 
             }
