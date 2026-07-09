@@ -41,10 +41,9 @@ public abstract class CuentaUsuario{
 
     @Override
     public String toString() {
-        return "CuentaUsuario{" +
-                "correo='" + correo + '\'' +
-                ", mesesActivo=" + mesesActivo +
-                ", planSuscripcion=" + planSuscripcion +
-                '}';
+        return "Correo: " + correo +
+                "\nMeses activos: " + mesesActivo +
+                "\nTipo de cuenta: " + nom() +
+                "\nTotal a pagar: $" + calculo() + " USD";
     }
 }
