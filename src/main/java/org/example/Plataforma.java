@@ -3,6 +3,10 @@ package org.example;
 import java.util.ArrayList;
 
 public class Plataforma {
+    public Plataforma() {
+        cuentaUsuarios = new ArrayList<>();
+    }
+
     private ArrayList<CuentaUsuario> cuentaUsuarios;
     public  void registroPlataforma(CuentaUsuario cuentaUsuario){
         cuentaUsuarios.add(cuentaUsuario);
